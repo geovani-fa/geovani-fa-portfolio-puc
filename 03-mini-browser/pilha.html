@@ -1,0 +1,34 @@
+<script>
+    //LIFO --> Stack
+    console.log('Pilha/Stack');
+
+    class BrowserHistoryStack{
+        constructor(){
+            this.cursor = 0;
+            this.data = [];
+        }
+        push(item){
+            this.cursor = this.cursor + 1;
+            this.data.push(item);
+        }
+        back(){
+            //this.data.pop();
+            this.cursor = this.cursor - 1;
+        }
+        clear(){
+            this.data = [];
+        }
+        print(){
+            console.log('Cursor: ' + this.cursor);
+            console.log(this.data);
+        }
+    }
+
+    const history = new BrowserHistoryStack();
+    history.push('https://google.com');
+    history.push('https://youtube.com');
+    history.push('https://facebook.com');
+    history.print();
+    history.back(); //pop()
+    history.print();
+</script>

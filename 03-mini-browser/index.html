@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Browser</title>
+</head>
+<body>
+    
+
+<!--<main>
+    <header>
+        <div class="cloase-area"></div>
+        <input placeholder="https://..." value="https://site.com">
+    </header>
+    <iframe src=""></iframe>
+</main>-->
+<script>
+    var aba1 = {
+        titulo: 'Google',
+        url:  'https://www.google.com'
+    };
+    var aba2 = {
+        titulo: 'Teste 2',
+        url: 'teste2.com'
+    };
+    const abas = [
+        aba1, 
+        aba2
+    ];
+    for(aba of abas){
+        console.log(aba.titulo)
+        //Saida
+        var valorHtml = document.body.innerHTML;
+        document.body.innerHTML = valorHtml +`<li><a href="${aba.url}">${aba.titulo}</a></li>`;
+    }
+
+</script>
+<!--<link rel="stylesheet" href="./style.css"/>-->
+</body>
+</html>
