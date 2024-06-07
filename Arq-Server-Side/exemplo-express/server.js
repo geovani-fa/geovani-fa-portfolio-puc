@@ -14,6 +14,12 @@ app.get('/rota2', (req, res) => {
     res.send('Olá Mundo-'+numRota+'! | EXPRESS');
   });
 
+//Rota para teste nodemon
+app.get('/geovani', (req, res) => {
+  let numRota = req.query.numRota
+  res.send('Olá Geovani! | EXPRESS');
+});  
+
 app.listen(port, () => {
   console.log(`Servidor rodando em http://localhost:${port}`);
 });
