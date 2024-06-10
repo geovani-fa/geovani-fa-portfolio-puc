@@ -1,0 +1,34 @@
+[
+  {
+    "id": "557e8498-8148-47ba-9028-d12782686617",
+    "name": "Torre Eiffel",
+    "cidade": "Paris",
+    "pais": "França",
+    "descricao": "A frágil e delicada torre de ferro será erguida apesar dos protestos. Os trabalhos duram 2 anos e se desenrolam em 3 etapas, uma vez as fundações construídas : a construção do primeiro andar, terminado em 1° de abril de 1888, a construção do segundo andar, terminado em 14 de agosto de 1888, e por fim, a montagem definitiva até o topo da torre em 31 de março de 1889, quando o monumento é inaugurado. Gustave Eiffel sobe os 1710 degraus da torre, que nesta época tinha 312 metros de altura, para colocar no seu topo a bandeira tricolor.",
+    "imageUrl": "https://cdn.pariscityvision.com/library/image/5144.jpg"
+  },
+  {
+    "id": "25123666-9737-486a-b578-5697d0d568d3",
+    "name": "Sagrada Familia",
+    "cidade": "Barcelona",
+    "pais": "Espanha",
+    "descricao": "Sagrada",
+    "imageUrl": "https://cdn.getyourguide.com/img/tour/62053657625bc.jpeg/98.jpg"
+  },
+  {
+    "id": "d602a422-c61a-4df2-a00d-c1c3a2ac43a0",
+    "name": "PUCRS",
+    "cidade": "Porto Alegre",
+    "pais": "Brasil",
+    "descricao": "PUC",
+    "imageUrl": "https://online.pucrs.br/hs-fs/hubfs/_DSC8672-min.jpg?width=1024&height=684&name=_DSC8672-min.jpg"
+  },
+  {
+    "id": "bfadc3ee-89d9-4cde-a379-505c3e4889ae",
+    "name": "TECNOPUC",
+    "cidade": "Porto Alegre",
+    "pais": "Brasil",
+    "descricao": "PUC",
+    "imageUrl": "https://online.pucrs.br/hs-fs/hubfs/_DSC8672-min.jpg?width=1024&height=684&name=_DSC8672-min.jpg"
+  }
+]
