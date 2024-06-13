@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Postcards</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Adicionar Postcard</h1>
+    <form action="/add" method="post">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" name="cidade" required>
+        <label for="pais">Pais:</label>
+        <input type="text" id="pais" name="pais" required>
+        <label for="descricao">Descrição:</label>
+        <textarea type="descricao" id="descricao" name="descricao" required></textarea>
+        <label for="imgUrl">URL da Imagem:</label>
+        <input type="text" id="imgUrl" name="imgUrl" required>
+        <button type="submit">Adicionar</button>
+    </form>
+    <a href="/">Voltar</a>
+  </body>
+</html>
